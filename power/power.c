@@ -499,7 +499,7 @@ void set_feature(struct power_module *module __unused, feature_t feature, int st
 	        return;		
 	    }		
 	#endif		
-	    set_device_specific_feature(module, feature, state);
+	    
 }
 
 int get_feature(struct power_module *module __unused, feature_t feature)
