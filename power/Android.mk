@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_POWERHAL_VARIANT),victara)
+ifeq ($(TARGET_POWERHAL_VARIANT),d855)
 
 include $(CLEAR_VARS)
 
